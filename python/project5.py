@@ -12,5 +12,5 @@ def pick(words):
     return words_picked
 
 while True:
-    print(pick(names), pick(verbs), pick(nouns), end = ".")
+    print(pick(names), pick(verbs), "a", pick(nouns), end = ".")
     input()
