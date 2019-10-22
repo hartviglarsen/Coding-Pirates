@@ -12,8 +12,17 @@ while feeling_brave:
     print("A ghost is behind one.")
     print("Which door door do you open?")
 
-    door = input("1, 2 or 3?")
-    door_num = int(door)
+    while True:
+        try:
+            door_num = int(input("1, 2 or 3?"))
+        except ValueError:
+            print("That's not a number!")
+            continue
+        else:
+            if 1 <= door_num <= 3:
+                break
+            else:
+                print("Invalid door")
 
     if (door_num == ghost_door):
         print("GHOST!!!")
