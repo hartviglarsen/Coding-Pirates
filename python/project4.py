@@ -26,11 +26,11 @@ while feeling_brave:
 
     if (door_num == ghost_door):
         print("GHOST!!!")
+        print("Run away!!\n")
         feeling_brave = False
     else:
         print("Phew ... no ghost!")
-        print("You enter the next room.")
+        print("You enter the next room.\n")
         score = score + 1
 
-print("Run away!!")
 print("Game over! You scored: ", score)
