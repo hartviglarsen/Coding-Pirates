@@ -10,7 +10,7 @@ while feeling_brave:
     
     print("Three doors ahead ... ")
     print("A ghost is behind one.")
-    print("Which door door do you open?")
+    print("Which door do you open?")
 
     while True:
         try:
