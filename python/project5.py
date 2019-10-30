@@ -1,7 +1,7 @@
 from random import randint
 
 names = ["Trine", "Eric", "Mahmoud", "Morten"]
-verbs = ["buys", "rides", "kicks", "pounches"]
+verbs = ["buys", "rides", "kicks", "punches"]
 nouns = ["lion", "bicycle", "plane", "house"]
 
 def pick(list):
