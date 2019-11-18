@@ -1,4 +1,4 @@
-from turtle import *
+from turtle import Screen, Turtle
 
 size = 300
 
@@ -37,5 +37,3 @@ while True:
         character.left(180)
 
     character.forward(1)
-
-exitonclick()
