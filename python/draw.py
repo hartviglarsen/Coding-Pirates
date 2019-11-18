@@ -5,7 +5,6 @@ size = 300
 window = Screen()
 window.bgcolor("pink")
 
-Scree
 pen = Turtle(visible=False)
 pen.penup()
 pen.setposition(-size,-size)
