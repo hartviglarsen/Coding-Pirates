@@ -4,15 +4,16 @@ window = Screen()
 window.bgcolor("pink")
 
 pen = Turtle()
+
+pen.hideturtle()
 pen.penup()
-
 pen.setposition(-300,-300)
-
 pen.pendown()
 pen.pensize(3)
 for side in range(4):
   pen.forward(600)
   pen.left(90)
+pen.penup()
 
 character = Turtle()
 character.color("blue")
